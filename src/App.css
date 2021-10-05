@@ -74,6 +74,7 @@ strong {
   position: absolute;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .pink_sperm {
@@ -95,6 +96,10 @@ strong {
   top: 50vh;
   width: 30%;
   transform: scale(0.6);
+  animation-name: bacteria2;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .pink_sperm_2 {
@@ -113,8 +118,12 @@ strong {
 .bacteria_4 {
   background: url('./images/bacteria_4.png') no-repeat;
   top: 65vh;
-  left: 50vw;
+  left: 40vw;
   transform: scale(0.7);
+  animation-name: bacteria4;
+  animation-duration: 30000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .bacteria_5 {
@@ -122,6 +131,11 @@ strong {
   top: 15vh;
   left: 60vw;
   transform: scale(0.7);
+  z-index: 2;
+  animation-name: bacteria5;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .bacteria_6 {
@@ -129,6 +143,10 @@ strong {
   top: -10vh;
   left: 47vw;
   transform: scale(0.7);
+  animation-name: bacteria6;
+  animation-duration: 8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .bacteria_7 {
@@ -136,4 +154,75 @@ strong {
   top: -12vh;
   left: 75vw;
   transform: scale(0.7);
+}
+
+@keyframes bacteria2 {
+  0% {
+    left: 0;
+    top: 50vh;
+  }
+  50% {
+    left: 2vw;
+    top: 55vh;
+  }
+  100% {
+    left: 0;
+    tp: 50vh;
+  }
+}
+
+@keyframes bacteria4 {
+  0% {
+    left: 50vw;
+    transform: scale(0.7);
+  }
+  25% {
+    left: 50vw;
+    transform: scale(0.8);
+  }
+  50% {
+    left: 50vw;
+    transform: scale(0.7);
+  }
+  75% {
+    left: 50vw;
+    transform: scale(0.8);
+  }
+  100% {
+    left: 50vw;
+    transform: scale(0.7);
+  }
+}
+
+@keyframes bacteria5 {
+  0% {
+    top: 15vh;
+    left: 60vw;
+  }
+  25% {
+    transform: rotate(90);
+  }
+  50% {
+    top: 8vh;
+    left: 56vw;
+  }
+  100% {
+    top: 15vh;
+    left: 60vw;
+  }
+}
+
+@keyframes bacteria6 {
+  0% {
+    top: -10vh;
+    left: 47vw;
+  }
+  50% {
+    top: 0vh;
+    left: 50vw;
+  }
+  100% {
+    top: -10vh;
+    left: 47vw;
+  }
 }
