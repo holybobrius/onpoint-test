@@ -21,12 +21,14 @@ const Home = () => {
         <div className="title_label">Привет, </div>
         <h1 className="title_main">
           Это <strong>не</strong> <br/> коммерческое <br/> задание 
-          <button className="next_btn">
-            <div className='btn_content'>
-              <div className="circle">→</div>
-              Что дальше?
-            </div>
-          </button>
+          <div className="title-btn">
+              <button className="next_btn">
+              <div className='btn_content'>
+                <div className="circle">→</div>
+                  Что дальше?
+                </div>
+              </button>
+          </div>
         </h1>
       </div>
     </div>

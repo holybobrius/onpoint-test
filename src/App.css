@@ -24,7 +24,7 @@
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 300;
-  font-size: 130px;
+  font-size: 8rem;
   letter-spacing: 0.7rem;
   line-height: 140px;
   display: inline;
@@ -39,7 +39,7 @@ strong {
 }
 
 .next_btn {
-  width: 250px;
+  width: 300px;
   height: 80px;
   outline: none;
   border-style: none;
@@ -47,6 +47,9 @@ strong {
   border-radius: 50px;
   vertical-align: middle;
   padding: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  
 }
 
 .btn_content {
@@ -55,7 +58,7 @@ strong {
   align-items: center;
   font-family: 'Gilroy';
   font-size: 1.5rem;
-  gap: 15px;
+  gap: 25px;
   
 }
 
@@ -68,6 +71,15 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.title-btn {
+  display: inline-flex;
+  height: 8rem;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .bg-image {
