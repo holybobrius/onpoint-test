@@ -1,38 +1,139 @@
 .App {
-  text-align: center;
+  background: rgb(68,195,253);
+  background: linear-gradient(164deg, rgba(68,195,253,1) 0%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 100%);
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
+  font-style: normal;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 54px;
+  margin-left: 150px;
+  z-index: 1;
+}
+
+.title_main {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 130px;
+  letter-spacing: 0.7rem;
+  line-height: 140px;
+  display: inline;
+}
+
+.title_label {
+  font-family: 'DIN Pro';
+}
+
+strong {
+  font-weight: 800;
+}
+
+.next_btn {
+  width: 250px;
+  height: 80px;
+  outline: none;
+  border-style: none;
+  background-color: #ff6a9f;
+  border-radius: 50px;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.btn_content {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  font-family: 'Gilroy';
+  font-size: 1.5rem;
+  gap: 15px;
+  
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: black;
   color: white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pink_sperm {
+  left: 32vw;
+  top: 18vh;
+  background: url('./images/pink_sperm_1.png') no-repeat;
+  z-index: 2;
+}
+
+.bacteria_1 {
+  background: url('./images/bacteria_1.png') no-repeat;
+  top: 4vh;
+  width: 50%;
+  height: 50%;
+}
+
+.bacteria_2 {
+  background: url('./images/bacteria_2.png') no-repeat;
+  top: 50vh;
+  width: 30%;
+  transform: scale(0.6);
+}
+
+.pink_sperm_2 {
+  background: url('./images/pink_sperm_2.png') no-repeat;
+  transform: scale(0.7);
+  top: 65vh;
+  left: -10vw;
+}
+
+.bacteria_3 {
+  background: url('./images/bacteria_3.png') no-repeat;
+  top: 80vh;
+  left: 40vw;
+}
+
+.bacteria_4 {
+  background: url('./images/bacteria_4.png') no-repeat;
+  top: 65vh;
+  left: 50vw;
+  transform: scale(0.7);
+}
+
+.bacteria_5 {
+  background: url('./images/bacteria_5.png') no-repeat;
+  top: 15vh;
+  left: 60vw;
+  transform: scale(0.7);
+}
+
+.bacteria_6 {
+  background: url('./images/bacteria_6.png') no-repeat;
+  top: -10vh;
+  left: 47vw;
+  transform: scale(0.7);
+}
+
+.bacteria_7 {
+  background: url('./images/bacteria_7.png') no-repeat;
+  top: -12vh;
+  left: 75vw;
+  transform: scale(0.7);
 }
