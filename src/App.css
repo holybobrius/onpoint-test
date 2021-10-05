@@ -84,12 +84,12 @@ strong {
 
 .bg-image {
   position: absolute;
-  width: 100%;
-  height: 100%;
   overflow: hidden;
 }
 
 .pink_sperm {
+  width: 1180px;
+  height: 185px;
   left: 32vw;
   top: 18vh;
   background: url('./images/pink_sperm_1.png') no-repeat;
@@ -99,14 +99,16 @@ strong {
 .bacteria_1 {
   background: url('./images/bacteria_1.png') no-repeat;
   top: 4vh;
-  width: 50%;
-  height: 50%;
+  width: 235px;
+  height: 230px;
 }
 
 .bacteria_2 {
   background: url('./images/bacteria_2.png') no-repeat;
-  top: 50vh;
-  width: 30%;
+  top: 70vh;
+  left: 20vw;
+  width: 145px;
+  height: 145px;
   transform: scale(0.6);
   animation-name: bacteria2;
   animation-duration: 10000ms;
@@ -117,22 +119,27 @@ strong {
 .pink_sperm_2 {
   background: url('./images/pink_sperm_2.png') no-repeat;
   transform: scale(0.7);
-  top: 65vh;
-  left: -10vw;
+  width: 550px;
+  height: 340px;
+  top: 68vh;
+  left: 10vw;
 }
 
 .bacteria_3 {
   background: url('./images/bacteria_3.png') no-repeat;
   top: 80vh;
   left: 40vw;
+  width: 170px;
+  height: 155px;
 }
 
 .bacteria_4 {
   background: url('./images/bacteria_4.png') no-repeat;
-  top: 65vh;
-  left: 40vw;
-  transform: scale(0.7);
-  animation-name: bacteria4;
+  left: 60vw;
+  bottom: 0;
+  width: 455px;
+  height: 250px;
+  
   animation-duration: 30000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -140,8 +147,10 @@ strong {
 
 .bacteria_5 {
   background: url('./images/bacteria_5.png') no-repeat;
-  top: 15vh;
-  left: 60vw;
+  top: 20vh;
+  left: 75vw;
+  width: 220px;
+  height: 225px;
   transform: scale(0.7);
   z-index: 2;
   animation-name: bacteria5;
@@ -152,89 +161,98 @@ strong {
 
 .bacteria_6 {
   background: url('./images/bacteria_6.png') no-repeat;
-  top: -10vh;
-  left: 47vw;
+  top: 3vh;
+  left: 65vw;
+  width: 125px;
+  height: 115px;
   transform: scale(0.7);
   animation-name: bacteria6;
-  animation-duration: 8000ms;
+  animation-duration: 15000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
 .bacteria_7 {
   background: url('./images/bacteria_7.png') no-repeat;
-  top: -12vh;
-  left: 75vw;
+  top: 5vh;
+  width: 140px;
+  height: 135px;
+  left: 90vw;
   transform: scale(0.7);
 }
 
 @keyframes bacteria2 {
   0% {
-    left: 0;
-    top: 50vh;
+    left: 3vw;
+    top: 65vh;
   }
   50% {
-    left: 2vw;
-    top: 55vh;
+    left: 5vw;
+    top: 74vh;
   }
   100% {
-    left: 0;
-    tp: 50vh;
+    left: 3vw;
+    top: 65vh;
   }
 }
 
 @keyframes bacteria4 {
   0% {
-    left: 50vw;
-    transform: scale(0.7);
+    left: 60vw;
+    transform: scale(1);
   }
   25% {
-    left: 50vw;
-    transform: scale(0.8);
+    left: 60vw;
+    transform: scale(1.05);
   }
   50% {
-    left: 50vw;
-    transform: scale(0.7);
+    left: 59vw;
+    transform: scale(1);
   }
   75% {
-    left: 50vw;
-    transform: scale(0.8);
+    left: 60vw;
+    transform: scale(1.05);
   }
   100% {
-    left: 50vw;
-    transform: scale(0.7);
+    left: 60vw;
+    transform: scale(1);
   }
 }
 
 @keyframes bacteria5 {
   0% {
-    top: 15vh;
-    left: 60vw;
-  }
-  25% {
-    transform: rotate(90);
+    top: 20vh;
+    left: 75vw;
   }
   50% {
-    top: 8vh;
-    left: 56vw;
+    top: 13vh;
+    left: 70vw;
   }
   100% {
-    top: 15vh;
-    left: 60vw;
+    top: 20vh;
+    left: 75vw;
   }
 }
 
 @keyframes bacteria6 {
   0% {
-    top: -10vh;
-    left: 47vw;
+    top: 3vh;
+    left: 65vw;
+  }
+  25% {
+    top: 12vh;
+    left: 68vw;
   }
   50% {
-    top: 0vh;
-    left: 50vw;
+    top: 3vh;
+    left: 65vw;
+  }
+  75% {
+    top: 10vh;
+    left: 62vw;
   }
   100% {
-    top: -10vh;
-    left: 47vw;
+    top: 3vh;
+    left: 65vw;
   }
 }
